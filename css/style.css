@@ -1,8 +1,174 @@
-html {
+/*Check Link: https://html.com/tags/img/*/
+/*
+* {
+        margin: 0;
+        padding: 0;
+}
+*/
+
+html, body {
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body {
+/* Body */
+/* Header */
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto; 
+}
+
+.hero {
     background-color: rgb(82, 225, 197);
     color: darkblue;
+    min-height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
 }
+
+.hero a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+h4 {
+    margin 0;
+/*    margin-top: 0;*/
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 14px 0 20px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero h3 {
+    margin-bottom: 35px;
+}
+
+.character1 {
+    background: url(../img/bye-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 384px;
+    height: 392.6px;
+    position: absolute;
+    top: 117px;
+    right: 89px;
+    transform: rotate(-7deg);
+}
+
+.character2 {
+    background: url(../img/eish-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 300px;
+    height: 397px;
+    position: absolute;
+    top: 360px;
+    right: 400px;
+    
+}
+
+.character3 {
+    background: url(../img/floating-plant-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 341px;
+    height: 387.3px;
+    position: absolute;
+    bottom: 60px;
+/*    top: 520px;*/
+    left: 52px;
+}
+
+.blue-button,
+button .blue-button,
+.yellow-button {
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    background: rgb(82, 225, 197);
+    box-shadow: 0 0 0 10px rgba(0, 127, 255, 0.15);
+    color: darkblue; 
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.yellow-button {
+    background: rgb(255,212,0);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/*
+<header class="hero">
+        
+        <div class="wrapper">
+            <h4>Rich from <a href="https://taptapkaboom.com" target="_blank">Tap Tap Kaboom</a> presents</h4>
+            <h1>The Silliest &amp;<br />
+                Most Awesome Gang <br />
+                In The World!</h1>
+            <h3>It’s Circle Guy, Hat Guy &amp; Red Guy.<br />
+                They’re the best of friends.</h3>
+            <a class="yellow-button" href="#story">Read More</a>
+        </div>
+        
+        
+        <div>
+            <div class="character1">
+                <img src="img/bye-guy.png" alt="">
+            </div>
+            <div class="character2">
+                <img src="img/eish-guy.png" alt="">
+            </div>
+            <div class="character3">
+                <img src="img/floating-plant-guy.png">
+            </div>
+        </div>
+        
+    </header>
+*/
+
+/** Navegation Bar **/
+
+/*
+<nav>
+        
+        <a href="#" class="logo">The Gang</a>
+        
+        <ul>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#story">The Story</a></li>
+            <li><a href="#more-info">More Info</a></li>
+        </ul>
+        
+    </nav>
+*/
+
+/* Main */
+/** More Info **/
+
+/** Separator **/
+
+/** Story **/
+
+/* Footer */
+
+
+/** Pop Up **/
+
