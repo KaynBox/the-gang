@@ -114,36 +114,6 @@ button.blue-button,
 }
 
 
-
-/*
-<header class="hero">
-        
-        <div class="wrapper">
-            <h4>Rich from <a href="https://taptapkaboom.com" target="_blank">Tap Tap Kaboom</a> presents</h4>
-            <h1>The Silliest &amp;<br />
-                Most Awesome Gang <br />
-                In The World!</h1>
-            <h3>It’s Circle Guy, Hat Guy &amp; Red Guy.<br />
-                They’re the best of friends.</h3>
-            <a class="yellow-button" href="#story">Read More</a>
-        </div>
-        
-        
-        <div>
-            <div class="character1">
-                <img src="img/bye-guy.png" alt="">
-            </div>
-            <div class="character2">
-                <img src="img/eish-guy.png" alt="">
-            </div>
-            <div class="character3">
-                <img src="img/floating-plant-guy.png">
-            </div>
-        </div>
-        
-    </header>
-*/
-
 /** Navegation Bar **/
 nav {
     height: 100px;
@@ -189,19 +159,7 @@ nav li a {
     color: black;
     text-decoration: none;
 }
-/*
-<nav>
-        
-        <a href="#" class="logo">The Gang</a>
-        
-        <ul>
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#story">The Story</a></li>
-            <li><a href="#more-info">More Info</a></li>
-        </ul>
-        
-    </nav>
-*/
+
 
 /* Main */
 /** More Info **/
